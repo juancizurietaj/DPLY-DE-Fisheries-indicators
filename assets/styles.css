@@ -1,0 +1,202 @@
+
+.h1 {
+    font-weight: bold;
+    text-align: left;
+    color: #333f54;
+    font-size: 42px;
+    padding: 20px;
+}
+
+.texts {
+    text-align: justify;
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.labels {
+    font-weight: bold;
+    text-align: left;
+    color: #333f54;
+    font-size: 16px;
+}
+
+.subLabels {
+    font-weight: 900;
+    text-align: left;
+    color: gray;
+    font-size: 14px;
+}
+
+.accordion-button {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.accordion-button {
+    height: 10px;
+}
+
+.rc-slider-track {
+    background-color: #333f54;
+}
+
+.rc-slider-handle {
+    border-color: #333f54;
+}
+
+.download-button {
+    background-color: #333f54;
+    color: white;
+    border-color: none;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.export {
+    display: none;
+}
+
+.footer-grant{
+    font-size: 12px;
+    color: gray;
+    width: 450px;
+    padding: 0px 15px;
+}
+
+.footer-fcd{
+    font-size: 12px;
+    color: gray;
+    width: 450px;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+}
+
+.footer-tiid {
+    font-size: 12px;
+    color: gray;
+    padding: 0px 15px;
+}
+.value-cards {
+    padding: 20px;
+}
+
+.value-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-text: center;
+}
+
+.value-cards-label {
+    text-align: center;
+    color: gray;
+}
+
+.value-cards-value {
+    text-align: center;
+    color: #333f54;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.mapboxgl-map {
+    left: 20px;
+}
+
+.card-box {
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    z-index: 1;
+}
+
+.card-box-behind {
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    z-index: 0; /* If no z-index used dropdown menu hides behind card*/
+}
+
+.methods-card-box {
+    padding: 50px;
+    margin: 50px;
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+}
+
+.y-log-check {
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    margin-left: 50px;
+}
+
+.downloads-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.downloads-card-item {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.downloads-card-container{
+    width: 30%;
+}
+
+.column-header--sort {
+    --accent: #f39c12;
+}
+
+.column-header-name {
+    width: 100%;
+    text-align: center;
+}
+
+.citation {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.citation-header {
+    font-weight: bold;
+    color: #333f54;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+/*Responsive CSS*/
+@media only screen and (max-width: 800px) {
+
+  #controls {
+    /*background-color: blue;*/
+    flex-direction: column;
+  }
+
+  #controls-col {
+  width: 100%;
+  }
+
+  #charts-col {
+  width: 100%;
+  }
+
+  .value-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-text: center;
+  }
+
+.downloads-container {
+    display: flex;
+    flex-orientation: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+}
