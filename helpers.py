@@ -246,7 +246,7 @@ def create_sparkline(df, groupby_col, values):
     df_to_sparkline = round(df_to_sparkline, 2)
 
     if len(df_to_sparkline) > 0:
-        start_value = df_to_sparkline[1]
+        start_value = df_to_sparkline[0]
         end_value = df_to_sparkline[-1]
     else:
         start_value, end_value = 0, 0
